@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,8 @@
   },
   "homepage": "https://github.com/keen-ivan/react-dev-week1-Activity#readme",
   "devDependencies": {
-    "ts-loader": "^9.6.2",
-    "typescript": "^7.0.2",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
     "webpack": "^5.110.3",
     "webpack-cli": "^7.2.3"
   }
